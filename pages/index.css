@@ -35,7 +35,6 @@
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__center/cover__center.css);
 
 @font-face {
     font-family: 'Inter';
