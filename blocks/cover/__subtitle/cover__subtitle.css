@@ -12,3 +12,27 @@
     left: 412px;
     pointer-events: none;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover__subtitle {
+        bottom: 195px;
+        left: 332px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover__subtitle {
+        bottom: 115px;
+        left: 204px;
+        }
+    }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        bottom: 33px;
+        left: 16px;
+        max-width: 288px;
+        }
+    }
