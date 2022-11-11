@@ -1,10 +1,15 @@
 @import url(../vendor/normalize.css);
 
+@import url(../vendor/fonts.css);
+
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/link-opacity/link-opacity.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
@@ -16,7 +21,7 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__fw-400/intro__fw-400.css);
+@import url(../blocks/intro/__list/_number/intro__list-number.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -41,27 +46,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/header/__lang-link/_chosen/header__lang-link_chosen.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
-
-@font-face {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-style: normal;
-    src: url(../vendor/fonts/Inter-Regular.woff2) format("woff2"),
-         url(../vendor/fonts/Inter-Regular.woff) format("woff");
-}
-
-@font-face {
-    font-family: 'Inter';
-    font-weight: 900;
-    font-style: normal;
-    src: url(../vendor/fonts/Inter-Black.woff2) format("woff2"),
-         url(../vendor/fonts/Inter-Black.woff) format("woff");
-  }
-
-  @font-face {
-    font-family: 'Inter';
-    font-weight: 700;
-    font-style: normal;
-    src: url(../vendor/fonts/Inter-Bold.woff2) format("woff2"),
-         url(../vendor/fonts/Inter-Bold.woff) format("woff");
-  }
