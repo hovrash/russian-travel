@@ -8,8 +8,7 @@
   margin: 0 0 32px 0;
   padding: 0;
   color: #fff;
-  z-index: 2;
-  pointer-events: none;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
