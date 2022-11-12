@@ -6,6 +6,7 @@
   margin: 0 0 0 18px;
   display: inline;
   color: #fff;
+  text-decoration-line: none;
 }
 
 .header__lang-link:first-of-type {
